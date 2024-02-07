@@ -34,9 +34,9 @@ Available client options described below, they all are optional:
   Client will check requests count and prevent from spam the server. You can ask to increase this limit.
 - `timeout` _integer_ - Request timeout in milliseconds. Default is 30000.
 - `rejectUnauthorized` _boolean_ - This option useful when you test demo env. Default is true.
-- `host` _string_ - Can be changed to test your bot on demo environment. Default is 'https://trade.cex.io/api/'
-- `apiUrlPublic` _string_ - Use a concrete url for public API calls. This option overrides `host` value. Default is 'https://trade.cex.io/api/rest-public/'
-- `apiUrl` _string_ - Use a concrete url for private API calls. This option overrides `host` value. Default is 'https://trade.cex.io/api/rest/'
+- `host` _string_ - Can be changed to test your bot on demo environment. Default is 'https://trade.cex.io/api/spot/'
+- `apiUrlPublic` _string_ - Use a concrete url for public API calls. This option overrides `host` value. Default is 'https://trade.cex.io/api/spot/rest-public/'
+- `apiUrl` _string_ - Use a concrete url for private API calls. This option overrides `host` value. Default is 'https://trade.cex.io/api/spot/rest/'
 
 
 ### Public actions
@@ -112,9 +112,9 @@ Available client options described below, they all are optional:
 
 - `wsReplyTimeout` _integer_ - Request timeout in milliseconds. Default is 30000.
 - `rejectUnauthorized` _boolean_ - This option useful when you test demo env. Default is true.
-- `host` _string_ - Can be changed to test your bot on demo environment. Default is 'wss://trade.cex.io/api/'
-- `apiUrlPublic` _string_ - Use a concrete url for public WS calls. This option overrides `host` value. Default is 'wss://trade.cex.io/api/ws-public/'
-- `apiUrl` _string_ - Use a concrete url for private WS calls. This option overrides `host` value. Default is 'wss://trade.cex.io/api/ws/'
+- `host` _string_ - Can be changed to test your bot on demo environment. Default is 'wss://trade.cex.io/api/spot/'
+- `apiUrlPublic` _string_ - Use a concrete url for public WS calls. This option overrides `host` value. Default is 'wss://trade.cex.io/api/spot/ws-public/'
+- `apiUrl` _string_ - Use a concrete url for private WS calls. This option overrides `host` value. Default is 'wss://trade.cex.io/api/spot/ws/'
 
 
 ### Call Private actions
