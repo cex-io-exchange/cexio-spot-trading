@@ -1,6 +1,6 @@
 {
   "name": "@cex-io/cexio-spot-trading",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The official Node.js client for CEX.IO Spot Trading API",
   "main": "index.js",
   "directories": {
